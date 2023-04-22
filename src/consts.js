@@ -1,3 +1,12 @@
+export const ATTRIBUTE_LIST_ENUM = {
+    Strength: 'Strength',
+    Dexterity: 'Dexterity',
+    Constitution: 'Constitution',
+    Intelligence: 'Intelligence',
+    Wisdom: 'Wisdom',
+    Charisma: 'Charisma',
+};
+
 export const ATTRIBUTE_LIST = [
     'Strength',
     'Dexterity',

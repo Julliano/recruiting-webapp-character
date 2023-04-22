@@ -32,6 +32,66 @@
   color: white;
 }
 
+.App-section-character {
+  display: flex;
+}
+
+.App-section-character-attributes {
+  flex: 2;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px white;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.App-character-attribute-item {
+  margin: 5px;
+}
+
+.App-character-attribute-item-button {
+  margin-left: 3px;
+}
+
+.App-section-character-classes {
+  flex: 1;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px white;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.App-character-class-item {
+  cursor: pointer;
+}
+
+.App-character-class-item__active {
+  color: green;
+}
+
+.App-section-character-classes-selected {
+  flex: 2;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px white;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.App-section-character-skills {
+  flex: 3;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px white;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.App-character-skill-item {
+  margin: 5px;
+}
+
+.App-character-skill-item-button {
+  margin: 0 3px;
+}
+
 .App-link {
   color: #61dafb;
 }
